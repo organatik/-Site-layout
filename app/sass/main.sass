@@ -1,0 +1,251 @@
+@import "bourbon"
+@import "vars.sass"
+
+//Load Libs SASS
+
+
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+//Custom Styles Here
+                            //What we Do start
+.canDo
+  min-height: 860px
+  background-color:
+  h4
+    font-family: "Conv_Lato-Bold", sans-serif
+    font-size: 20px
+    &:hover
+      color: $active-color
+
+  .bigTag
+    font-size: 127px
+    color: $main-grey
+    text-transform: uppercase
+    font-family: "Conv_Lato-Bold", sans-serif
+    p
+      margin: 25px 0
+      line-height: 1.1
+      &:first-child
+        padding-top: 150px
+  .ourWork
+    padding-top: 50px
+    .fa-envelope-square
+      font-size: 60px
+      padding-right: 50px
+      vertical-align: middle
+    .fa-desktop
+      font-size: 50px
+      padding-right: 50px
+      vertical-align: middle
+    .fa-picture-o
+      font-size: 50px
+      padding-right: 50px
+      vertical-align: middle
+    .first
+      font-size: 70px
+      vertical-align: middle
+    .second
+      font-size: 50px
+      vertical-align: middle
+      padding-right: 45px
+    p
+      padding-left: 100px
+      font-size: 14px
+      font-family: 'Conv_Lato-Regular', sans-serif
+      line-height: 1.7
+
+                                    //What we Do END
+
+                                    // Custom Service Start
+.customService
+  min-height: 850px
+  background: url(../img/bgService.jpg) no-repeat right
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  h2
+    padding-top: 285px
+    font-size: 50px
+    font-family: 'Conv_Lato-Light', sans-serif
+    color: $active-color
+  p
+    font-size: 18px
+    font-family: 'Conv_Lato-Regular', sans-serif
+    color: #333333
+  button
+    padding: 10px 20px
+    background-color: $active-color
+    border: none
+    color: $main-grey
+    font-family: 'Conv_Lato-Regular', sans-serif
+  .fa-long-arrow-right
+    padding-left: 10px
+                                    //Custom Service END
+
+
+                                    //Gallery Start
+    
+.gallery
+  text-align: center
+  margin-bottom: 120px
+  h2
+    font-size: 50px
+    font-family: Conv_Lato-Bold, sans-serif
+    margin-top: 150px
+    margin-bottom: 10px
+  img
+    vertical-align: inherit
+
+  button
+    background-color: #FFFFFF
+    border: 2px solid black
+    padding: 5px 25px
+    font-size: 18px
+    font-family: 'Conv_Lato-Regular', sans-serif
+    margin: 50px 0
+  .active
+    background-color: $active-color
+    color: white
+    border: none
+
+
+#Container
+  .mix
+    display: none
+                                                        //Gallery END
+
+                                                        //Rating Start
+
+.rating
+  background: url(../img/bg-rating.jpg) no-repeat center
+  background-size: cover
+  height: 400px
+  position: relative
+  text-align: center
+  padding-top: 100px
+  color: $main-grey
+  font-family: Conv_Lato-Regular, sans-serif
+  font-size: 20px
+  i
+    font-size: 50px
+    padding: 20px
+  span
+    color: white
+    font-size: 35px
+    font-family: Conv_Lato-Bold, sans-serif
+  p
+    margin: 0
+  &:before
+    content: ''
+    display: block
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: $active-color
+    opacity: 0.87
+    position: absolute
+
+                                                  //Rating END
+
+
+
+                                                  //Contact Start
+
+.contact
+  background-color: #232323
+  p
+    text-align: center
+    color: white
+    font-family: Conv_Lato-Regular, sans-serif
+    font-size: 18px
+  h3
+    color: white
+    font-size: 33px
+    font-family: Conv_Lato-Regular, sans-serif
+  h2
+    color: white
+    padding-top: 80px
+    margin-bottom: 15px
+    font-size: 50px
+    font-family: Conv_Lato-Bold, sans-serif
+    text-align: center
+  input
+    background-color: #232323
+    margin-top: 10px
+    height: 50px
+    font-size: 20px
+    font-family: Conv_Lato-Regular, sans-serif
+    color: #555555
+    &:last-of-type
+      height: 140px
+      padding-bottom: 108px
+  button
+    background-color: $active-color
+    margin-top: 10px
+    padding: 10px 50px
+    color: $main-grey
+    margin-bottom: 100px
+  .address
+    p
+      text-align: left
+      font-size: 16px
+      font-family: Conv_Lato-Regular, sans-serif
+      color: $main-grey
+    i
+      padding: 0 20px
+      vertical-align: middle
+    ul
+      list-style-type: none
+    span
+      padding-left: 70px
+
+                                                      //Contact END
+
+
+                                                      //FooTer start
+.footer
+  height: 100px
+  width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
+  resize: vertical
+  overflow: auto
+  background-color: #1f1f1f
+  p
+    font-size: 19px
+    font-family: Conv_Lato-Regular, sans-serif
+    color: $main-grey
+  i
+    padding: 10px 10px
+    color: white
+  .social
+    text-align: center
+
+
+//ALWAYS END
+@import "media"

@@ -1,0 +1,74 @@
+@import "bourbon"
+@import "vars.sass"
+
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "RobotoRegular", sans-serif
+	overflow-x: hidden
+
+.hidden
+	display: none
+
+header
+  text-align: center
+  background: url(../img/headerBg.jpg) no-repeat bottom center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  min-height: 750px
+  .logo
+    color: green
+    font-size: 35px
+    font-family: Kontanter, sans-serif
+    margin: 0
+    .firstLogo
+      color: #00aeef
+    .secondLogo
+      color: #8352f1
+  .center-header
+    margin-bottom: 0
+    text-align: center
+    padding-top: 200px
+    font-size: 65px
+    color: #FFF
+    font-family: Conv_Lato-Regular , sans-serif
+  .center-header-under
+    text-align: center
+    margin-top: 0
+    font-size: 33px
+    color: $main-grey
+    font-family: Conv_Lato-Light, sans-serif
+  button
+    background: rgba(255, 255, 255, 0)
+    border: 2px solid $main-grey
+    border-radius: 50px
+    padding: 15px 50px
+    font-size: 18px
+    font-family: Conv_Lato-Regular , sans-serif
+    color: $main-grey
+
+
+
+nav
+  ul
+    list-style-type: none
+    text-align: center
+    padding-left: 5px
+    li
+      display: inline-block
+      a
+        margin: 0 10px
+        font-size: 18px
+        color: $main-grey
+        font-family: Conv_Lato-Regular, sans-serif
+        text-transform: uppercase
+        &:hover
+          color: #ffffff
+          cursor: pointer
+          text-decoration: none
+          font-family: Conv_Lato-Regular, sans-serif

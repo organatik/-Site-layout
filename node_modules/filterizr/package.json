@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "filterizr",
+        "scope": null,
+        "escapedName": "filterizr",
+        "name": "filterizr",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\organatik\\Desktop\\MyProject"
+    ]
+  ],
+  "_from": "filterizr@latest",
+  "_id": "filterizr@1.2.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/filterizr",
+  "_nodeVersion": "5.10.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/filterizr-1.2.4.tgz_1463848268159_0.6069637297187"
+  },
+  "_npmUser": {
+    "name": "yiotis",
+    "email": "giotisgr@gmail.com"
+  },
+  "_npmVersion": "3.7.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "filterizr",
+    "scope": null,
+    "escapedName": "filterizr",
+    "name": "filterizr",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/filterizr/-/filterizr-1.2.4.tgz",
+  "_shasum": "2e0d48ca006aad47ea3fa10de9756a248550e9a6",
+  "_shrinkwrap": null,
+  "_spec": "filterizr",
+  "_where": "C:\\Users\\organatik\\Desktop\\MyProject",
+  "author": {
+    "name": "Yiotis Kaltsikis",
+    "email": "yiotiskal@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/giotiskl/filterizr/issues"
+  },
+  "dependencies": {},
+  "description": "Filterizr is a jQuery plugin that sorts, shuffles, searches and applies stunning filters over responsive galleries using CSS3 transitions and custom CSS effects",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "2e0d48ca006aad47ea3fa10de9756a248550e9a6",
+    "tarball": "https://registry.npmjs.org/filterizr/-/filterizr-1.2.4.tgz"
+  },
+  "gitHead": "6e72597a62336fe76155ce880c528f8730926725",
+  "homepage": "https://github.com/giotiskl/Filterizr#readme",
+  "keywords": [
+    "filter",
+    "shuffle",
+    "search",
+    "sort",
+    "filterizr",
+    "gallery",
+    "responsive",
+    "css3",
+    "css",
+    "lightweight",
+    "customizable",
+    "Yiotis",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "license": "MIT",
+  "main": "src/jquery.filterizr.js",
+  "maintainers": [
+    {
+      "name": "yiotis",
+      "email": "giotisgr@gmail.com"
+    }
+  ],
+  "name": "filterizr",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/giotiskl/Filterizr.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.4"
+}
